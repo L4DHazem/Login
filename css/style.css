@@ -1,0 +1,147 @@
+body {
+
+    background-color: #24353F;
+}
+
+
+.login {
+    width: 60%;
+
+    height: 460px;
+
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
+
+    background-color: #2C3E50;
+
+    border-radius: 10px;
+
+    padding: 20px;
+}
+
+.login h1 {
+
+    color: #17A2B8;
+}
+
+.form-control {
+    background-color: transparent;
+
+    width: 700px;
+}
+
+.form-control:focus {
+
+    background-color: transparent;
+
+    border-color: #17A2B8;
+
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+
+.btn-login {
+
+    width: 700px;
+
+    height: 50px;
+
+    padding: 9px;
+
+    font-size: 20px;
+
+    border: 1px solid #00cfe8;
+
+    background-color: transparent;
+
+    color: #00cfe8;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #00cfe8;
+
+    color: #1d2c35;
+}
+
+.delete {
+
+    width: 200px;
+
+    margin: 0 27%;
+
+}
+
+.delete .btn-login:hover {
+
+    background-color: #e74c3c;
+
+    transition: 0.3s ease-in-out;
+}
+
+h6 {
+
+    cursor: pointer;
+}
+
+
+
+.loader-wrapper {
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background-color: #1e2b34;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 9999;
+}
+
+.loader {
+    
+    width: 60px;
+
+    height: 60px;
+
+    border: 6px solid #fff;
+
+    border-bottom-color: #FF3D00;
+
+    border-radius: 50%;
+
+    box-sizing: border-box;
+
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
